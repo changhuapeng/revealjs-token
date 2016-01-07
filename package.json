@@ -1,0 +1,26 @@
+{
+  "name": "reveal.js",
+  "version": "3.2.0",
+  "description": "The HTML Presentation Framework",
+  "homepage": "http://changhuapeng.github.io/reveal.js",
+  "subdomain": "revealjs",
+  "main": "js/reveal.js",
+  "scripts": {
+    "start": "node plugin/multiplex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hakimel/reveal.js.git"
+  },
+  "engines": {
+    "node": "~4.1.1"
+  },
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "express": "~4.13.3",
+    "mustache": "~2.1.3",
+    "socket.io": "~1.3.7"
+  },
+
+  "license": "MIT"
+}
